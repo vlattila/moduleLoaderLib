@@ -7,7 +7,7 @@
 #define NUM_OF_FUNC 5
 
 ////////////////////////////////SUPPORT//////////////////////////////////////
-void info()
+void info() //visual fieedback for developer not required
 {
 	printf("info\nget_infolist\nhello\nprint_arglist\n");
 };
@@ -32,14 +32,15 @@ int get_infolist(uint8_t extern_list[NUM_OF_FUNC][NAME_LENGTH])
 	return 0;
 };
 
+void print_arglist()
+{
+//TODO IT'S ONLY TEST 
+	printf("void info(void)\nvoid hello()\nchar** get_infolist()\nprint_arglist()");
+};
+
 
 ///////////////////////////////////REAL CONTENT/////////////////////////////////
 void hello()
 {
 	printf("Hello\n");
-};
-
-void print_arglist()
-{
-	printf("void info(void)\nvoid hello()\nchar** get_infolist()\nprint_arglist()");
 };
