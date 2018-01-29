@@ -1,0 +1,4 @@
+--generate basic lib .c/.cpp file with the requierd function (//SUPPORT//-functions)
+--generate makefile to the libs
+--path completion
+    --give a lib name it func will looking for the popular modules path (/usr/lib; current working directory; other specific folder)
